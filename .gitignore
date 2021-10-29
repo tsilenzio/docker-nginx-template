@@ -1,0 +1,27 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Vim
+*~
+*.sw?
+
+# Jetbrains
+.idea/*
+
+# Environment Variables
+.env
+.env.test
+.env.production
+
+# Sensitive Project Files
+nginx/config/*
+!nginx/config/domains.txt.example
+!nginx/config/nginx.conf.example
+!nginx/config/conf.d/
+nginx/config/conf.d/*
+!nginx/config/conf.d/default.conf.example
